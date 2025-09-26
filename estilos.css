@@ -1,0 +1,108 @@
+/* Fondo cuadriculado */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("img/fondo.png"); /* imagen de cuadritos */
+  color: #333;
+}
+
+/* Encabezado */
+.header {
+  display: flex;
+  align-items: center;
+  background: #1976d2;
+  color: white;
+  padding: 15px;
+}
+.header .logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; /* redondeo de imagen */
+  margin-right: 15px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+.autor {
+  text-align: right;
+  font-style: italic;
+  margin: 10px 20px;
+}
+
+/* Intro */
+.intro {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+.intro h2 {
+  margin-top: 0;
+}
+.intro p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Títulos */
+.titulo-seccion {
+  text-align: left;
+  margin: 30px 20px 15px;
+}
+
+/* Flexbox para tarjetas */
+.contenedor-tarjetas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.tarjeta {
+  background: white;
+  padding: 15px;
+  width: 280px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.2); /* sombra */
+  border: 1px solid #ccc; /* borde */
+}
+.tarjeta img {
+  width: 80px;
+  margin-top: 10px;
+}
+
+/* Colores de borde */
+.html { border-top: 6px solid #e44d26; }
+.css { border-top: 6px solid #1572b6; }
+.js { border-top: 6px solid #f7df1e; }
+
+/* Imagen de la casa */
+.imagen-casa {
+  text-align: center;
+  margin: 30px 0;
+}
+.imagen-casa img {
+  width: 400px;
+}
+
+/* Línea divisoria */
+hr {
+  border: none;
+  border-top: 2px solid #bbb;
+  margin: 30px auto;
+  width: 90%;
+}
+
+/* Resumen */
+.resumen {
+  background: #f5f5f5;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto 40px;
+  max-width: 900px;
+  text-align: center;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
